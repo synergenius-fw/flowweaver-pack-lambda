@@ -1,0 +1,13 @@
+{
+  "manifestVersion": 1,
+  "name": "@synergenius/flowweaver-pack-lambda",
+  "version": "0.1.0",
+  "nodeTypes": [],
+  "workflows": [],
+  "patterns": [],
+  "exportTargets": [{
+    "name": "lambda",
+    "description": "AWS Lambda + API Gateway deployment",
+    "file": "dist/target.js"
+  }]
+}

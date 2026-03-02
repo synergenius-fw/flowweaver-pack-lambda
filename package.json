@@ -1,0 +1,27 @@
+{
+  "name": "@synergenius/flowweaver-pack-lambda",
+  "version": "0.1.0",
+  "description": "AWS Lambda export target for Flow Weaver",
+  "keywords": ["flowweaver-marketplace-pack", "flow-weaver", "lambda", "aws", "serverless"],
+  "flowWeaver": {
+    "type": "marketplace-pack",
+    "engineVersion": ">=0.14.0",
+    "categories": ["deployment", "serverless"]
+  },
+  "peerDependencies": {
+    "@synergenius/flow-weaver": ">=0.14.0"
+  },
+  "main": "./dist/target.js",
+  "types": "./dist/target.d.ts",
+  "type": "module",
+  "files": ["dist", "flowweaver.manifest.json", "README.md"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@synergenius/flow-weaver": "^0.14.2"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}

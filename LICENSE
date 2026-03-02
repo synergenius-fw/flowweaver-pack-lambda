@@ -1,0 +1,204 @@
+Flow Weaver Library License
+
+Version 2.0, February 2026
+
+## Quick Reference (non-binding summary)
+
+This table is provided for convenience only. In case of any conflict between
+this summary and the license terms below, the license terms control.
+
+Permitted:
+
+  Use                                       Who               Notes
+  ----------------------------------------  ----------------  ----------------------------------
+  Install and run locally                   Anyone            No restrictions on local use
+  Compile workflows                         Anyone            CLI, programmatic, scripts
+  Use generated output (code, artifacts)    Anyone            Output is unrestricted
+  Run in CI/CD pipelines and build systems  Anyone, any size  Not considered "hosting"
+  Distribute copies with license notices    Anyone            Must include license, mark changes
+  Create derivative works                   Anyone            Must retain license key checks
+  Host internally                           Orgs <= 15        All members count toward limit
+  Embed in internal toolchains              Anyone            No visual workflow authoring UI
+  Use inside a larger product                Anyone            If flow-weaver is not the primary value
+
+Requires commercial license:
+
+  Use                                       Notes
+  ----------------------------------------  ----------------------------------
+  Host internally                           Orgs > 15 people
+  Build visual workflow authoring tools     Standalone products for workflow authoring
+  Offer as a hosted or managed service      To third parties, at any scale
+  Sell products built on the software       Where flow-weaver is the primary value
+
+Never permitted:
+
+  Use                                       Notes
+  ----------------------------------------  ----------------------------------
+  Remove or circumvent license keys         Applies to software and derivatives
+  Remove licensing or copyright notices     Must always be retained
+  Strip license key checks from forks       Derivatives must retain protections
+
+---
+
+## Acceptance
+
+By using the software, you agree to all of the terms and conditions below.
+
+## Copyright License
+
+The licensor grants you a non-exclusive, royalty-free, worldwide,
+non-sublicensable, non-transferable license to use, copy, distribute, make
+available, and prepare derivative works of the software, in each case subject to
+the limitations and conditions below.
+
+## Limitations
+
+You may not provide the software to third parties as a hosted or managed
+service, where the service provides users with access to any of the features or
+functionality of the software.
+
+You may not use the software to build, distribute, or offer any standalone
+product or service whose primary purpose is providing a graphical or visual
+interface for creating, editing, designing, or composing workflows. This
+restriction applies whether the product is hosted, distributed, sold, or offered
+free of charge. It does not apply to products that use the software internally
+without exposing its workflow authoring capabilities to end users through a
+graphical interface.
+
+You may not sell the software or any product that provides, as its primary
+function, capabilities supplied by the software (including workflow compilation,
+parsing, validation, code generation, or diagram generation), without a separate
+commercial license from the licensor. This does not restrict the sale of products
+that merely incorporate the software as one component among many, where the
+product's primary value comes from functionality independent of the software.
+
+You may not move, change, disable, or circumvent the license key functionality
+in the software, and you may not remove or obscure any functionality in the
+software that is protected by the license key.
+
+Derivative works must retain all license key functionality, license verification
+mechanisms, and licensing notices present in the original software. Distributing
+derivative works with license key protections removed, disabled, or bypassed
+constitutes a violation of this license.
+
+You may not alter, remove, or obscure any licensing, copyright, or other notices
+of the licensor in the software. Any use of the licensor's trademarks is subject
+to applicable law.
+
+## Patents
+
+The licensor grants you a license, under any patent claims the licensor can
+license, or becomes able to license, to make, have made, use, sell, offer for
+sale, import and have imported the software, in each case subject to the
+limitations and conditions in this license. This license does not cover any
+patent claims that you cause to be infringed by modifications or additions to the
+software. If you or your company make any written claim that the software
+infringes or contributes to infringement of any patent, your patent license for
+the software granted under these terms ends immediately. If your company makes
+such a claim, your patent license ends immediately for work on behalf of your
+company.
+
+## Notices
+
+You must ensure that anyone who gets a copy of any part of the software from you
+also gets a copy of these terms.
+
+If you modify the software, you must include in any modified copies of the
+software prominent notices stating that you have modified the software.
+
+## No Other Rights
+
+These terms do not imply any licenses other than those expressly granted in
+these terms.
+
+## Termination
+
+If you use the software in violation of these terms, such use is not licensed,
+and your licenses will automatically terminate. If the licensor provides you
+with a notice of your violation, and you cease all violation of this license no
+later than 30 days after you receive that notice, your licenses will be
+reinstated retroactively. However, if you violate these terms after such
+reinstatement, any additional violation of these terms will cause your licenses
+to terminate immediately.
+
+You may request a review of any termination by contacting the licensor in
+writing within 15 days of termination. The licensor will respond within 30 days.
+
+## No Liability
+
+As far as the law allows, the software comes as is, without any warranty or
+condition, and the licensor will not be liable to you for any damages arising
+out of these terms or the use or nature of the software, under any kind of
+legal claim.
+
+## Governing Law
+
+This license is governed by the laws of Portugal. Any disputes arising from or
+related to this license will be submitted to the exclusive jurisdiction of the
+courts of Lisbon, Portugal.
+
+## Definitions
+
+The "licensor" is Ricardo Jose Horta Morais (Synergenius), and the "software"
+is the software the licensor makes available under these terms.
+
+"You" refers to the individual or entity agreeing to these terms. "Your company"
+is any legal entity, sole proprietorship, or other kind of organization that you
+work for, plus all organizations that have control over, are under the control
+of, or are under common control with that organization. "Control" means
+ownership of substantially all the assets of an entity, or the power to direct
+its management and policies by vote, contract, or otherwise. Control can be
+direct or indirect.
+
+"Third parties" means any individual or entity that is not you or your company
+as defined in these terms.
+
+"Your licenses" are all the licenses granted to you for the software under these
+terms. "Use" means anything you do with the software requiring one of your
+licenses.
+
+"Hosting the software" means making the software's functionality available to
+users over a network as a service. Running the software in automated build
+pipelines, continuous integration systems, command-line interfaces, or
+development toolchains does not constitute hosting, regardless of organization
+size.
+
+---
+
+ADDITIONAL NOTICES
+
+1. Output of the Software
+
+The output of the software, including but not limited to compiled workflows,
+generated code, deployment artifacts, and any other files produced by the
+software's compilation, code generation, or export features, is not considered
+part of the software and may be used, copied, modified, distributed, and
+sublicensed for any purpose without restriction under this license.
+
+2. Internal Hosting Threshold
+
+Organizations with 15 or fewer individuals, including employees, contractors,
+and affiliates, may host the software on internal infrastructure for use by
+their members without restriction under this license. The count includes all
+individuals in the organization, not only those who directly use the software.
+
+Organizations with more than 15 individuals that wish to host the software,
+whether on internal infrastructure or as a service, require a commercial
+license.
+
+3. Unrestricted Use
+
+Using the software locally, including installing, running, compiling workflows,
+generating code, and producing deployment artifacts, is permitted for any
+individual or organization regardless of size, subject to the Limitations above.
+
+4. Export Compliance
+
+You are responsible for compliance with all applicable export and import laws
+and regulations in your jurisdiction when using, distributing, or making the
+software available.
+
+5. Commercial Licensing
+
+For commercial licensing inquiries, partnership arrangements, or questions
+about permitted use, contact support@synergenius.pt.
