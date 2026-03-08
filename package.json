@@ -1,5 +1,5 @@
 {
-  "name": "@synergenius/flowweaver-pack-lambda",
+  "name": "@synergenius/flow-weaver-pack-lambda",
   "version": "0.1.1",
   "description": "AWS Lambda export target for Flow Weaver",
   "keywords": [
@@ -39,6 +39,6 @@
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
-    "url": "https://github.com/synergenius-fw/flowweaver-pack-lambda.git"
+    "url": "https://github.com/synergenius-fw/flow-weaver-pack-lambda.git"
   }
 }

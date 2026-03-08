@@ -1,4 +1,4 @@
-# @synergenius/flowweaver-pack-lambda
+# @synergenius/flow-weaver-pack-lambda
 
 AWS Lambda export target for [Flow Weaver](https://github.com/synergenius-fw/flow-weaver).
 
@@ -7,7 +7,7 @@ Generates deployment-ready AWS Lambda functions with SAM templates from Flow Wea
 ## Installation
 
 ```bash
-npm install @synergenius/flowweaver-pack-lambda
+npm install @synergenius/flow-weaver-pack-lambda
 ```
 
 This package is a **marketplace pack** — once installed, Flow Weaver automatically discovers it via `createTargetRegistry()`.
