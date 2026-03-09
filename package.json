@@ -4,7 +4,6 @@
   "description": "AWS Lambda export target for Flow Weaver",
   "keywords": [
     "flow-weaver-marketplace-pack",
-    "flowweaver-marketplace-pack",
     "flow-weaver",
     "lambda",
     "aws",
