@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "name": "@synergenius/flow-weaver-pack-lambda",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "nodeTypes": [],
   "workflows": [],
   "patterns": [],
