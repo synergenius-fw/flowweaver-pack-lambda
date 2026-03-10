@@ -37,6 +37,9 @@ Never permitted:
   Remove or circumvent license keys         Applies to software and derivatives
   Remove licensing or copyright notices     Must always be retained
   Strip license key checks from forks       Derivatives must retain protections
+  Reverse-engineer to build replacements    Manual, automated, or AI-assisted
+  Use as AI/ML input to replicate features  Training, prompting, or code generation
+  Extract specs for third-party cloning     Indirect circumvention via intermediaries
 
 ---
 
@@ -80,6 +83,26 @@ Derivative works must retain all license key functionality, license verification
 mechanisms, and licensing notices present in the original software. Distributing
 derivative works with license key protections removed, disabled, or bypassed
 constitutes a violation of this license.
+
+You may not use any part of the software, including but not limited to its
+source code, test suites, documentation, specifications, observable behavior,
+inputs, outputs, or error messages, to develop, train, fine-tune, prompt, or
+otherwise assist in the creation of software that replicates, reimplements, or
+substitutes for any functionality of the software. This restriction applies
+whether the development is performed manually, through automated tools, or
+through artificial intelligence or machine learning systems, and regardless of
+whether the resulting software contains any code from the original.
+
+You may not use any part of the software as input to any artificial intelligence,
+machine learning, or large language model system for the purpose of generating,
+synthesizing, or deriving source code, algorithms, data structures, or
+architectures that replicate or approximate the functionality of the software.
+
+You may not circumvent the limitations in this license through indirect means,
+including but not limited to extracting specifications, behavioral descriptions,
+or functional requirements from the software and providing them to third parties
+or automated systems for the purpose of developing competing or functionally
+equivalent software.
 
 You may not alter, remove, or obscure any licensing, copyright, or other notices
 of the licensor in the software. Any use of the licensor's trademarks is subject
